@@ -6,8 +6,12 @@ import jwt
 password_hash = PasswordHash.recommended()
 
 
-def verify_password(plain_password, hashed_password):
-    return password_hash.verify(plain_password, hashed_password)
+def hash_password(password):
+    return password_hash.hash(password)
+
+
+def verify_password(plain_password, password):
+    return password_hash.verify(plain_password, password)
 
 
 def create_access_token(data: dict, expires_delta: timedelta | None = None):
