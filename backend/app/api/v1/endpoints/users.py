@@ -14,7 +14,7 @@ router = APIRouter()
 @router.get("/me")
 async def read_users_me(
     current_user: Annotated[UserDetailResponse, Depends(get_current_active_user)],
-):
+) -> UserDetailResponse:
     """
     Rota protegida que retorna os dados do usuário logado.
     """

@@ -1,5 +1,8 @@
 from pydantic import BaseModel
 
+class StatusResponse(BaseModel):
+    message: str = "servidor está ok!"
+
 
 class Token(BaseModel):
     access_token: str
