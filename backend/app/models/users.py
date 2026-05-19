@@ -1,5 +1,5 @@
 from sqlalchemy import String, DateTime, func
-from sqlalchemy.orm import mapped_column, Mapped
+from sqlalchemy.orm import mapped_column, Mapped, relationship
 from datetime import datetime
 from ..db.base import Base
 
@@ -12,3 +12,5 @@ class Users(Base):
     email: Mapped[str] = mapped_column(String(255), unique=True, index=True)
     password_hash: Mapped[str] = mapped_column(String)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=func.now())
+
+    prices: Mapped[list["Price"]] = relationship(back_populates="user")
