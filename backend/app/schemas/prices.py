@@ -6,6 +6,7 @@ from datetime import datetime
 class PriceCreateRequest(BaseModel):
     product_name: str
     price: float
+    link: str | None = None
     collected_at: datetime 
     brand_id: int
     category_id: int
@@ -17,6 +18,7 @@ class PriceResponse(BaseModel):
     user_id: int
     product_id: int
     location_id: int
+    link: str | None = None
     price: float
     currency: str
     collected_at: datetime
