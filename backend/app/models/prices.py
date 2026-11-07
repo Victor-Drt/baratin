@@ -12,7 +12,7 @@ class Price(Base):
 
     product_id: Mapped[int] = mapped_column(ForeignKey("products.id"))
     user_id: Mapped[int] = mapped_column(ForeignKey("users.id"))
-    location_id: Mapped[int | None] = mapped_column(ForeignKey("locations.id"), nullable=True)
+    location_id: Mapped[int] = mapped_column(ForeignKey("locations.id"))
 
     link: Mapped[str] = mapped_column(String, nullable=True)
     price: Mapped[Decimal] = mapped_column(Numeric(10, 2))
