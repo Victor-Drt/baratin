@@ -1,13 +1,11 @@
 # 🛒 Baratin
 
-O **Baratin** é uma plataforma desenvolvida para ajudar consumidores a economizarem nas suas compras de supermercado, facilitando a comparação de preços de produtos entre diferentes estabelecimentos da sua região.
+O **Baratin** é uma plataforma colaborativa desenvolvida para ajudar as pessoas a identificarem o **preço justo** de diversos produtos — desde itens de supermercado até eletrônicos.
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-O principal objetivo do **Baratin** é promover o consumo consciente e a economia financeira no dia a dia. A plataforma centraliza informações sobre ofertas e valores praticados por redes e mercados locais, permitindo que o usuário:
+O objetivo do Baratin é combater o superfaturamento e promover o consumo consciente por meio do registro colaborativo de preços. 
 
-- **Compare Preços:** Encontre o supermercado com a melhor oferta para um produto específico ou para a sua lista inteira de compras.
-- **Economize Tempo e Dinheiro:** Identifique onde fazer compras mais baratas sem precisar pesquisar manualmente em múltiplos locais ou panfletos.
-- **Transparência nas Ofertas:** Acesse informações atualizadas de valores praticados no comércio local de forma rápida e intuitiva.
+Muitas vezes é difícil saber se o valor cobrado por um produto é realmente justo ou se está acima da média do mercado. O Baratin resolve isso permitindo que a comunidade registre os preços encontrados em diferentes lojas (físicas ou virtuais), oferecendo uma análise visual sobre onde encontrar a melhor oferta e qual é o valor ideal a se pagar.
